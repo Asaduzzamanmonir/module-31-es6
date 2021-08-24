@@ -22,3 +22,7 @@ const blues = products.filter(product => product.color == 'Blue')
 
 const whiteItem = products.find(product => product.color == 'White')
 console.log(whiteItem);
+
+const friends = ["Moushumi", "Misha", "Manna", "mimi", "mahiya"];
+const friend = friends.find(friend => friend.length == 5)
+console.log(friend);
